@@ -91,7 +91,7 @@ public enum BrowserType implements DriverSetup{
 
 
             if(isWebDriverManager() ){
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.firefoxdriver().setup();
             }
             else{
                 System.setProperty("webdriver.gecko.driver",
